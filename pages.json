@@ -17,7 +17,7 @@
 		}, {
 			"path": "pages/login/login",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "登录寻呼",
 				"enablePullDownRefresh": false
 			}
 
@@ -28,9 +28,23 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/tabs/tabs",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/messageCard/messageCard",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
 		}
 	    ,{
-            "path" : "pages/tabs/tabs",
+            "path" : "pages/components/classification/classification",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
@@ -39,16 +53,7 @@
             
         }
         ,{
-            "path" : "pages/2222/2222",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-        ,{
-            "path" : "pages/messageCard/messageCard",
+            "path" : "pages/components/InformationList/InformationList",
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",

@@ -1,58 +1,71 @@
 <template>
 	<view>
-		<view class="dropdown">
-			<u-dropdown>
-				<u-dropdown-item v-model="value1" title="区县" :options="options1"></u-dropdown-item>
-				<u-dropdown-item v-model="value2" title="排序" :options="options2"></u-dropdown-item>
-				<u-dropdown-item v-model="value2" title="类别" :options="options2"></u-dropdown-item>
-			</u-dropdown>
+		<view class="search"><u-search disabled shape="square" input-align="center" :animation="false" @click="click"></u-search></view>
+		<view class="classification"><class-ification></class-ification></view>
+		<view class="content">
+			<information-list></information-list>
+			<view class="floatbtn" @click="changeMenu">
+				<text>发布</text>
+			</view>
 		</view>
-		<view class="tabs"><tabs></tabs></view>
 	</view>
 </template>
 
 <script>
 import Tabs from 'pages/tabs/tabs';
+import ClassIfication from 'pages/components/classification/classification';
+import InformationList from 'pages/components/InformationList/InformationList';
 export default {
 	components: {
+		ClassIfication,
+		InformationList,
 		Tabs
 	},
 	data() {
 		return {
-			value1: 1,
-			value2: 2,
-			options1: [
-				{
-					label: '默认排序',
-					value: 1
-				},
-				{
-					label: '距离优先',
-					value: 2
-				},
-				{
-					label: '价格优先',
-					value: 3
-				}
-			],
-			options2: [
-				{
-					label: '去冰',
-					value: 1
-				},
-				{
-					label: '加冰',
-					value: 2
-				}
-			]
+			customStyle: {
+				width: '90rpx',
+				height: '90rpx',
+				borderRadius: '100%',
+				marginTop: '20px', // 注意驼峰命名，并且值必须用引号包括，因为这是对象
+				color: 'red'
+			}
 		};
 	},
-	methods: {}
+	methods: {
+		click() {
+			console.log('@click');
+		},
+		changeMenu() {}
+	}
 };
 </script>
 
 <style lang="scss" scoped>
-.dropdown {
-	height: 80rpx;
+.tabs {
+	height: 100%;
+}
+.search {
+	padding: 0 20rpx;
+}
+.content{
+	background-color: #fff;
+}
+.floatbtn {
+	background-color: #007aff;
+	color: #fff;
+	width: 100rpx;
+	height: 100rpx;
+	position: fixed;
+	right: 0;
+	bottom:0;
+	z-index: 99999;
+	border-radius: 120rpx 0rpx 0 0rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 15rpx;
+	cursor: pointer;
 }
 </style>

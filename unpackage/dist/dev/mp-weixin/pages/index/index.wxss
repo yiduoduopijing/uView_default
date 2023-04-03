@@ -1,0 +1,296 @@
+
+page {
+	height: 100%;
+	background-color: #ffffff;
+}
+
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.u-tabs-box.data-v-5736d3c6 {
+  position: relative;
+  width: 80%;
+}
+.wrap.data-v-5736d3c6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.wrap .swiper-box.data-v-5736d3c6 {
+  background-color: pink;
+  height: calc(100vh - 240rpx);
+}
+.searchIcon.data-v-5736d3c6 {
+  position: absolute;
+  top: 18rpx;
+  right: -80rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.dropdown.data-v-05c4326f {
+  height: 80rpx;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* page不能写带scope的style标签中，否则无效 */
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.demo-warter.data-v-25a753c5 {
+  border-radius: 8px;
+  margin: 5px;
+  padding: 8px;
+  position: relative;
+}
+.u-close.data-v-25a753c5 {
+  position: absolute;
+  top: 32rpx;
+  right: 32rpx;
+}
+.demo-image.data-v-25a753c5 {
+  width: 100%;
+  border-radius: 4px;
+}
+.demo-title.data-v-25a753c5 {
+  font-size: 30rpx;
+  margin-top: 5px;
+  color: #303133;
+}
+.demo-tag.data-v-25a753c5 {
+  display: flex;
+  margin-top: 5px;
+}
+.demo-tag-owner.data-v-25a753c5 {
+  background-color: #fa3534;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 4rpx 14rpx;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+  line-height: 1;
+}
+.demo-tag-text.data-v-25a753c5 {
+  border: 1px solid #2979ff;
+  color: #2979ff;
+  margin-left: 10px;
+  border-radius: 50rpx;
+  line-height: 1;
+  padding: 4rpx 14rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 50rpx;
+  font-size: 20rpx;
+}
+.demo-price.data-v-25a753c5 {
+  font-size: 30rpx;
+  color: #fa3534;
+  margin-top: 5px;
+}
+.demo-shop.data-v-25a753c5 {
+  font-size: 22rpx;
+  color: #909399;
+  margin-top: 5px;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.tabs.data-v-57280228 {
+  height: 100%;
+}
+.search.data-v-57280228 {
+  padding: 0 20rpx;
+}
+.content.data-v-57280228 {
+  background-color: #fff;
+}
+.floatbtn.data-v-57280228 {
+  background-color: #007aff;
+  color: #fff;
+  width: 100rpx;
+  height: 100rpx;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 99999;
+  border-radius: 120rpx 0rpx 0 0rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 15rpx;
+  cursor: pointer;
+}
+

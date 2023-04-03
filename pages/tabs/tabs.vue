@@ -77,6 +77,10 @@ page {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	.swiper-box{
+		background-color: pink;
+		height: calc(100vh - 240rpx);;
+	}
 }
 .searchIcon{
 	position: absolute;

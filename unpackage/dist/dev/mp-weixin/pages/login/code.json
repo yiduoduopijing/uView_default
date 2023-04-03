@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-message-input": "/uview-ui/components/u-message-input/u-message-input"
+  }
+}

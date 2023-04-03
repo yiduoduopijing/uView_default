@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "u-search": "/uview-ui/components/u-search/u-search",
+    "class-ification": "/pages/components/classification/classification",
+    "information-list": "/pages/components/InformationList/InformationList",
+    "tabs": "/pages/tabs/tabs"
+  }
+}
